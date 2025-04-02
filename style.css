@@ -1,0 +1,96 @@
+/* reset margin, padding */
+body {
+    margin: 0 !important;
+}
+
+.red {
+    border: 1px solid red
+}
+
+.green {
+    border: 1px solid green
+}
+
+.banner {
+    height: 867px;
+    /* width: 100%; */
+    background: url('./Anh/banner.jpg') center center no-repeat;
+    padding: 20px
+}
+
+.about-sign-in {
+    height: 80px;
+    width: 100%;
+    display: block;
+    float: right;
+    text-align: right;
+}
+
+.about,
+.sign-in {
+    text-decoration: none;
+    margin-top: 21px;
+    padding: 5px 11px;
+    display: inline-block;
+    text-transform: uppercase;
+}
+
+.sign-in {
+    margin-right: 60px;
+    margin-left: 10px;
+    border: 1px solid green;
+    border-radius: 20px;
+}
+
+/* Ctrl + ttai chuoi: chuyen sang tep dang tro */
+
+.logo {
+    background: url('./Anh/hapoERP.png') center center no-repeat;
+    margin-top: 100px;
+    height: 100px;
+}
+
+.text {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 15px;
+    font-style: italic;
+}
+
+.btn-start-now {
+    text-align: center;
+}
+
+button {
+    text-transform: uppercase;
+    border-radius: 20px;
+    color: white;
+    background-color: limegreen;
+    padding: 7px 15px;
+    border: 2px solid green;
+    cursor: pointer;
+}
+
+.content-center {
+    display: inline-block;
+    height: 50px;
+    width: 100%;
+}
+
+.left,
+.center,
+.right {
+    width: 33%;
+    display: inline-block;
+    text-align: center;
+}
+
+span {
+    display: block;
+    font-size: 20px;
+}
+
+img {
+    width: 30px;
+    height: 30px;
+}
